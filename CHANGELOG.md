@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 - `oxcontent` is now converted to `include_content` tag
+- Readme reference to old Twig documentation
 
 ### Fixed
 - Use correct addslashes filter [PR-1](https://github.com/OXID-eSales/smarty-to-twig-converter/pull/1)
