@@ -4,13 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [2.0.0] - Unreleased
+## [Unreleased]
 
 ### Added
 - Support for PHP 8
 - Missing property type declarations
 - Missing method return type declarations
 - More fields converted by default by database conversion
+- Added composer.lock file to project
 
 ### Removed
 - Support for `assign_adv` plugin
