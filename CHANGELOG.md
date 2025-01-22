@@ -4,14 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## 2.0.0 [Unreleased]
 
 ### Added
 - Support for PHP 8
 - Missing property type declarations
 - Missing method return type declarations
 - More fields converted by default by database conversion
-- Added composer.lock file to project
 
 ### Removed
 - Support for `assign_adv` plugin
@@ -20,6 +19,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - `oxcontent` is now converted to `include_content` tag
 - Readme reference to old Twig documentation
+- `composer.json` changes to align better with semantic versioning
 
 ### Fixed
 - Use correct addslashes filter [PR-1](https://github.com/OXID-eSales/smarty-to-twig-converter/pull/1)
@@ -32,4 +32,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.0.0] - 2019-11-21
 
+[Unreleased]: https://github.com/OXID-eSales/smarty-to-twig-converter/compare/v1.0.1...HEAD
 [1.0.1]: https://github.com/OXID-eSales/smarty-to-twig-converter/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/OXID-eSales/smarty-to-twig-converter/tags/v1.0.0
